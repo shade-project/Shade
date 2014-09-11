@@ -33,6 +33,8 @@
         <file alias="tx_mined">res/icons/tx_mined.png</file>
         <file alias="tx_input">res/icons/tx_input.png</file>
         <file alias="tx_output">res/icons/tx_output.png</file>
+		<file alias="tx_input_small">res/icons/tx_input_small.png</file>
+        <file alias="tx_output_small">res/icons/tx_output_small.png</file>
         <file alias="tx_inout">res/icons/tx_inout.png</file>
         <file alias="lock_closed">res/icons/lock_closed.png</file>
         <file alias="lock_open">res/icons/lock_open.png</file>
@@ -47,6 +49,7 @@
         <file alias="staking_off">res/icons/staking_off.png</file>
         <file alias="staking_on">res/icons/staking_on.png</file>
         <file alias="social">res/icons/social.png</file>
+		<file alias="message">res/icons/message.png</file>
         <file alias="bitcoiniconn">res/icons/bitcoin.png</file>
         <file alias="dollar">res/icons/dollar.png</file>
         <file alias="minimize">res/icons/mini.png</file>

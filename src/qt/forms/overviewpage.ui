@@ -3451,18 +3451,18 @@
     <widget class="QFrame" name="frame_4">
      <property name="minimumSize">
       <size>
-       <width>677</width>
+       <width>675</width>
        <height>235</height>
       </size>
      </property>
      <property name="maximumSize">
       <size>
-       <width>677</width>
+       <width>675</width>
        <height>235</height>
       </size>
      </property>
      <property name="styleSheet">
-      <string notr="true">font-size:13px;padding:5px;background-image:url(:/icons/res/icons/recent.png);padding-top:20px;</string>
+      <string notr="true">font-size:13px;padding:5px;padding-left:5px;background-image:url(:/icons/res/icons/recent.png);padding-top:15px;</string>
      </property>
      <layout class="QVBoxLayout" name="verticalLayout_6">
       <property name="spacing">
@@ -3696,6 +3696,9 @@
         </property>
         <property name="frameShape">
          <enum>QFrame::NoFrame</enum>
+        </property>
+        <property name="lineWidth">
+         <number>10</number>
         </property>
         <property name="verticalScrollBarPolicy">
          <enum>Qt::ScrollBarAlwaysOff</enum>

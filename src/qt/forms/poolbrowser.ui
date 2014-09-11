@@ -118,20 +118,23 @@ QTabWidget::pane {border:none;}
            <height>81</height>
           </rect>
          </property>
+         <property name="styleSheet">
+          <string notr="true">border-right:1px solid #000;border-left:1px solid #000;border-top:1px solid #000;background-color:#009ade</string>
+         </property>
          <widget class="QLabel" name="lblOverviewCryptsy">
           <property name="geometry">
            <rect>
-            <x>0</x>
-            <y>0</y>
-            <width>101</width>
-            <height>31</height>
+            <x>10</x>
+            <y>10</y>
+            <width>91</width>
+            <height>21</height>
            </rect>
           </property>
           <property name="styleSheet">
            <string notr="true">border:none;</string>
           </property>
           <property name="text">
-           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#009ade;&quot;&gt;Cryptsy&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#ffffff;&quot;&gt;CRYPTSY&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
           </property>
          </widget>
          <widget class="QLabel" name="lblOverviewCryptsyBtc">
@@ -142,6 +145,9 @@ QTabWidget::pane {border:none;}
             <width>91</width>
             <height>16</height>
            </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border:none;</string>
           </property>
           <property name="text">
            <string>Not Listed</string>
@@ -156,11 +162,14 @@ QTabWidget::pane {border:none;}
           </property>
           <property name="geometry">
            <rect>
-            <x>-10</x>
+            <x>0</x>
             <y>60</y>
-            <width>121</width>
-            <height>20</height>
+            <width>111</width>
+            <height>21</height>
            </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-bottom:1px solid #000;</string>
           </property>
           <property name="text">
            <string>0.00%</string>
@@ -180,22 +189,22 @@ QTabWidget::pane {border:none;}
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">border-right:1px solid #bdc3c7;</string>
+          <string notr="true">border-right:1px solid #000;border-left:1px solid #000;border-top:1px solid #000;background-color:#009ade</string>
          </property>
          <widget class="QLabel" name="lblOverviewBittrex">
           <property name="geometry">
            <rect>
-            <x>0</x>
-            <y>0</y>
-            <width>101</width>
-            <height>31</height>
+            <x>10</x>
+            <y>10</y>
+            <width>91</width>
+            <height>21</height>
            </rect>
           </property>
           <property name="styleSheet">
            <string notr="true">border:none;</string>
           </property>
           <property name="text">
-           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#009ade;&quot;&gt;Bittrex&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#ffffff;&quot;&gt;BITTREX&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
           </property>
          </widget>
          <widget class="QLabel" name="lblOverviewBittrexBtc">
@@ -226,8 +235,11 @@ QTabWidget::pane {border:none;}
             <x>0</x>
             <y>60</y>
             <width>111</width>
-            <height>20</height>
+            <height>21</height>
            </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-bottom:1px solid #000;</string>
           </property>
           <property name="text">
            <string>0.00%</string>
@@ -247,7 +259,7 @@ QTabWidget::pane {border:none;}
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">border-right:1px solid #bdc3c7;</string>
+          <string notr="true">border-right:1px solid #000;border-left:1px solid #000;border-top:1px solid #000;background-color:#009ade</string>
          </property>
          <widget class="QLabel" name="lblOverviewMintpalBtc">
           <property name="geometry">
@@ -272,16 +284,16 @@ QTabWidget::pane {border:none;}
           <property name="geometry">
            <rect>
             <x>10</x>
-            <y>0</y>
+            <y>10</y>
             <width>91</width>
-            <height>31</height>
+            <height>21</height>
            </rect>
           </property>
           <property name="styleSheet">
            <string notr="true">border:none;</string>
           </property>
           <property name="text">
-           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#009ade;&quot;&gt;Mintpal&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#ffffff;&quot;&gt;MINTPAL&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
           </property>
          </widget>
          <widget class="QLabel" name="lblOverviewMintpalPerc">
@@ -290,11 +302,14 @@ QTabWidget::pane {border:none;}
           </property>
           <property name="geometry">
            <rect>
-            <x>-10</x>
+            <x>0</x>
             <y>60</y>
-            <width>121</width>
-            <height>20</height>
+            <width>111</width>
+            <height>21</height>
            </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-bottom:1px solid #000;</string>
           </property>
           <property name="text">
            <string>0.00%</string>
@@ -333,10 +348,10 @@ QTabWidget::pane {border:none;}
         <widget class="QLabel" name="lblOverviewHeader">
          <property name="geometry">
           <rect>
-           <x>210</x>
+           <x>10</x>
            <y>50</y>
-           <width>161</width>
-           <height>41</height>
+           <width>561</width>
+           <height>71</height>
           </rect>
          </property>
          <property name="font">
@@ -352,7 +367,7 @@ QTabWidget::pane {border:none;}
           <string notr="true">font-family:Arial Narrow;</string>
          </property>
          <property name="text">
-          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#009ade;&quot;&gt;OVERVIEW&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#009ade;&quot;&gt;MARKET OVERVIEW&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
          </property>
         </widget>
         <widget class="QLabel" name="lblOverviewScAvg">
@@ -410,7 +425,7 @@ QTabWidget::pane {border:none;}
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">border-right:1px solid #bdc3c7;</string>
+          <string notr="true">border-right:1px solid #000;border-left:1px solid #000;border-top:1px solid #000;background-color:#009ade</string>
          </property>
          <widget class="QLabel" name="lblOverviewPoloniexBtc">
           <property name="geometry">
@@ -435,16 +450,16 @@ QTabWidget::pane {border:none;}
           <property name="geometry">
            <rect>
             <x>10</x>
-            <y>0</y>
+            <y>10</y>
             <width>91</width>
-            <height>31</height>
+            <height>21</height>
            </rect>
           </property>
           <property name="styleSheet">
            <string notr="true">border:none;</string>
           </property>
           <property name="text">
-           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#009ade;&quot;&gt;Poloniex&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#ffffff;&quot;&gt;POLONIEX&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
           </property>
          </widget>
          <widget class="QLabel" name="lblOverviewPoloniexPerc">
@@ -453,11 +468,14 @@ QTabWidget::pane {border:none;}
           </property>
           <property name="geometry">
            <rect>
-            <x>-10</x>
+            <x>0</x>
             <y>60</y>
-            <width>121</width>
-            <height>20</height>
+            <width>111</width>
+            <height>21</height>
            </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-bottom:1px solid #000;</string>
           </property>
           <property name="text">
            <string>0.00%</string>
@@ -503,7 +521,7 @@ QTabWidget::pane {border:none;}
         <bool>false</bool>
        </property>
        <property name="styleSheet">
-        <string notr="true">QTabBar:tab {height:20px;background:none;color:white;margin:0px;margin-right:10px;text-align:center;padding:2px;border-radius:3px;font-style:italic;width:80px;font-size:12px;margin-bottom:10px;}
+        <string notr="true">QTabBar:tab {height:20px;background:transparent;color:white;margin:0px;margin-right:10px;text-align:center;padding:2px;border-radius:3px;font-style:italic;width:80px;font-size:12px;margin-bottom:10px;}
 QTabWidget::tab-bar {alignment:right;border:0px;}
 QTabBar::tab:last {margin-right:100px;}</string>
        </property>
@@ -514,7 +532,7 @@ QTabBar::tab:last {margin-right:100px;}</string>
         <enum>QTabWidget::Rounded</enum>
        </property>
        <property name="currentIndex">
-        <number>0</number>
+        <number>1</number>
        </property>
        <property name="iconSize">
         <size>
@@ -564,22 +582,22 @@ QTabBar::tab:last {margin-right:100px;}</string>
            </rect>
           </property>
           <property name="styleSheet">
-           <string notr="true">border-right:1px solid #bdc3c7;</string>
+           <string notr="true">border-right:1px solid #000;border-left:1px solid #000;border-top:1px solid #000;background-color:#009ade;border-BOTTOM:1px solid #000;</string>
           </property>
           <widget class="QLabel" name="lblBittrexAskHeader">
            <property name="geometry">
             <rect>
-             <x>0</x>
-             <y>0</y>
-             <width>101</width>
-             <height>31</height>
+             <x>10</x>
+             <y>10</y>
+             <width>91</width>
+             <height>21</height>
             </rect>
            </property>
            <property name="styleSheet">
             <string notr="true">border:none;</string>
            </property>
            <property name="text">
-            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#009ade;&quot;&gt;Ask&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#ffffff;&quot;&gt;ASK&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
            </property>
           </widget>
           <widget class="QLabel" name="lblBittrexAskBtc">
@@ -630,20 +648,23 @@ QTabBar::tab:last {margin-right:100px;}</string>
             <height>81</height>
            </rect>
           </property>
+          <property name="styleSheet">
+           <string notr="true">border-right:1px solid #000;border-left:1px solid #000;border-top:1px solid #000;background-color:#009ade;border-BOTTOM:1px solid #000;</string>
+          </property>
           <widget class="QLabel" name="lblBittrexBidHeader">
            <property name="geometry">
             <rect>
-             <x>0</x>
-             <y>0</y>
-             <width>101</width>
-             <height>31</height>
+             <x>10</x>
+             <y>10</y>
+             <width>91</width>
+             <height>21</height>
             </rect>
            </property>
            <property name="styleSheet">
             <string notr="true">border:none;</string>
            </property>
            <property name="text">
-            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#009ade;&quot;&gt;Bid&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#ffffff;&quot;&gt;BID&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
            </property>
           </widget>
           <widget class="QLabel" name="lblBittrexBidBtc">
@@ -654,6 +675,9 @@ QTabBar::tab:last {margin-right:100px;}</string>
              <width>91</width>
              <height>16</height>
             </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">border:none</string>
            </property>
            <property name="text">
             <string>B0.00000000</string>
@@ -670,6 +694,9 @@ QTabBar::tab:last {margin-right:100px;}</string>
              <width>91</width>
              <height>16</height>
             </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">border:none</string>
            </property>
            <property name="text">
             <string>$0.00000000</string>
@@ -689,22 +716,22 @@ QTabBar::tab:last {margin-right:100px;}</string>
            </rect>
           </property>
           <property name="styleSheet">
-           <string notr="true">border-right:1px solid #bdc3c7;</string>
+           <string notr="true">border-right:1px solid #000;border-left:1px solid #000;border-top:1px solid #000;background-color:#009ade;border-BOTTOM:1px solid #000;</string>
           </property>
           <widget class="QLabel" name="lblBittrexLastHeader">
            <property name="geometry">
             <rect>
-             <x>0</x>
-             <y>0</y>
-             <width>101</width>
-             <height>31</height>
+             <x>10</x>
+             <y>10</y>
+             <width>91</width>
+             <height>21</height>
             </rect>
            </property>
            <property name="styleSheet">
             <string notr="true">border:none;</string>
            </property>
            <property name="text">
-            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#009ade;&quot;&gt;Last&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#ffffff;&quot;&gt;LAST&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
            </property>
           </widget>
           <widget class="QLabel" name="lblBittrexLastBtc">
@@ -797,10 +824,11 @@ QTabBar::tab:last {margin-right:100px;}</string>
            <bool>true</bool>
           </property>
           <property name="styleSheet">
-           <string notr="true">QScrollBar:vertical {margin-top:22px;background: #95a5a6;}QScrollBar::handle:vertical {background: #703030;min-width: 10px;min-height:20px;}QScrollBar::add-line:vertical {width: 0px;subcontrol-position: top left;}QScrollBar::sub-line:vertical {width: 0px;subcontrol-position: top left;}QScrollBar:left-arrow:horizontal, QScrollBar::right-arrow:horizontal {width: 0px;height: 0px;}QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {background: none;} QTreeWidget { color:#000;background:#d3d6d8;}
+           <string notr="true">QTreeWidget { color:#000;}
+QScrollBar:vertical {margin-top:22px;background: #95a5a6;}QScrollBar::handle:vertical {background: #703030;min-width: 10px;min-height:20px;}QScrollBar::add-line:vertical {width: 0px;subcontrol-position: top left;}QScrollBar::sub-line:vertical {width: 0px;subcontrol-position: top left;}QScrollBar:left-arrow:horizontal, QScrollBar::right-arrow:horizontal {width: 0px;height: 0px;}QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {background: none;} QTreeWidget {background:#d3d6d8;}
  QHeaderView::section {
      background-color: #f2594b;
-	 color:#000;
+	color:#000;
      padding-left: 15px;
      border: 0px;
 	height:22px;
@@ -1048,7 +1076,7 @@ QTabBar::tab:last {margin-right:100px;}</string>
            </size>
           </property>
           <property name="styleSheet">
-           <string notr="true">background-color:#f2594b;</string>
+           <string notr="true">background-color:#f2594b;color:#000;</string>
           </property>
          </widget>
          <widget class="QLabel" name="lblBittrexBuyHeader">
@@ -1092,7 +1120,7 @@ QTabBar::tab:last {margin-right:100px;}</string>
            </size>
           </property>
           <property name="styleSheet">
-           <string notr="true">background-color:#7cc576;</string>
+           <string notr="true">background-color:#7cc576; color:#000;</string>
           </property>
          </widget>
          <widget class="QTreeWidget" name="qTreeWidgetBittrexBuy">
@@ -1105,7 +1133,8 @@ QTabBar::tab:last {margin-right:100px;}</string>
            </rect>
           </property>
           <property name="styleSheet">
-           <string notr="true">QScrollBar:vertical {margin-top:22px;background: #95a5a6;}QScrollBar::handle:vertical {background: #4e8e81;max-width: 5px;min-height:20px;}QScrollBar::add-line:vertical {width: 0px;subcontrol-position: top left;}QScrollBar::sub-line:vertical {width: 0px;subcontrol-position: top left;}QScrollBar:left-arrow:horizontal, QScrollBar::right-arrow:horizontal {width: 0px;height: 0px;}QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {background: none;} QTreeWidget { color:#000;background:#d3d6d8;}
+           <string notr="true">QTreeWidget { color:#000;}
+QScrollBar:vertical {margin-top:22px;background: #95a5a6;}QScrollBar::handle:vertical {background: #4e8e81;max-width: 5px;min-height:20px;}QScrollBar::add-line:vertical {width: 0px;subcontrol-position: top left;}QScrollBar::sub-line:vertical {width: 0px;subcontrol-position: top left;}QScrollBar:left-arrow:horizontal, QScrollBar::right-arrow:horizontal {width: 0px;height: 0px;}QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {background: none;} QTreeWidget {background:#d3d6d8;}
  QHeaderView::section {
      background-color: #7cc576;
 	 color:#000;
@@ -1113,7 +1142,6 @@ QTabBar::tab:last {margin-right:100px;}</string>
      border: 0px;
 	height:22px;
  }
-
 </string>
           </property>
           <property name="verticalScrollBarPolicy">
@@ -1199,7 +1227,7 @@ QTabBar::tab:last {margin-right:100px;}</string>
            <string notr="true">font-family:Arial Narrow;</string>
           </property>
           <property name="text">
-           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#009ade;&quot;&gt;Bittrex&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#009ade;&quot;&gt;BITTREX&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
           </property>
          </widget>
          <widget class="QLabel" name="lblBittrexChange">
@@ -1305,7 +1333,7 @@ QTabBar::tab:last {margin-right:100px;}</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">Font-family:Myriad Pro;color:#61696c;font-size:12px;</string>
+          <string notr="true">Font-family:Myriad Pro;color:#61696c;font-size:12px;background-color:transparent</string>
          </property>
          <widget class="QScrollArea" name="scrollAreaBittrex">
           <property name="geometry">
@@ -1563,22 +1591,22 @@ QTabBar::tab:last {margin-right:100px;}</string>
            </rect>
           </property>
           <property name="styleSheet">
-           <string notr="true">border-right:1px solid #bdc3c7;</string>
+           <string notr="true">border-right:1px solid #000;border-left:1px solid #000;border-top:1px solid #000;background-color:#009ade;border-BOTTOM:1px solid #000;</string>
           </property>
           <widget class="QLabel" name="lblMintpalAskHeader">
            <property name="geometry">
             <rect>
-             <x>0</x>
-             <y>0</y>
-             <width>101</width>
-             <height>31</height>
+             <x>10</x>
+             <y>10</y>
+             <width>91</width>
+             <height>21</height>
             </rect>
            </property>
            <property name="styleSheet">
             <string notr="true">border:none;</string>
            </property>
            <property name="text">
-            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#009ade;&quot;&gt;Ask&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#ffffff;&quot;&gt;ASK&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
            </property>
           </widget>
           <widget class="QLabel" name="lblMintpalAskBtc">
@@ -1629,20 +1657,23 @@ QTabBar::tab:last {margin-right:100px;}</string>
             <height>81</height>
            </rect>
           </property>
+          <property name="styleSheet">
+           <string notr="true">border-right:1px solid #000;border-left:1px solid #000;border-top:1px solid #000;background-color:#009ade;border-BOTTOM:1px solid #000;</string>
+          </property>
           <widget class="QLabel" name="lblMintpalBidHeader">
            <property name="geometry">
             <rect>
-             <x>0</x>
-             <y>0</y>
-             <width>101</width>
-             <height>31</height>
+             <x>10</x>
+             <y>10</y>
+             <width>91</width>
+             <height>21</height>
             </rect>
            </property>
            <property name="styleSheet">
             <string notr="true">border:none;</string>
            </property>
            <property name="text">
-            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#009ade;&quot;&gt;Bid&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#ffffff;&quot;&gt;BID&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
            </property>
           </widget>
           <widget class="QLabel" name="lblMintpalBidBtc">
@@ -1653,6 +1684,9 @@ QTabBar::tab:last {margin-right:100px;}</string>
              <width>91</width>
              <height>16</height>
             </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">border:none</string>
            </property>
            <property name="text">
             <string>B0.00000000</string>
@@ -1669,6 +1703,9 @@ QTabBar::tab:last {margin-right:100px;}</string>
              <width>91</width>
              <height>16</height>
             </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">border:none</string>
            </property>
            <property name="text">
             <string>$0.00000000</string>
@@ -1688,22 +1725,22 @@ QTabBar::tab:last {margin-right:100px;}</string>
            </rect>
           </property>
           <property name="styleSheet">
-           <string notr="true">border-right:1px solid #bdc3c7;</string>
+           <string notr="true">border-right:1px solid #000;border-left:1px solid #000;border-top:1px solid #000;background-color:#009ade;border-BOTTOM:1px solid #000;</string>
           </property>
           <widget class="QLabel" name="lblMintpalLastHeader">
            <property name="geometry">
             <rect>
-             <x>0</x>
-             <y>0</y>
-             <width>101</width>
-             <height>31</height>
+             <x>10</x>
+             <y>10</y>
+             <width>91</width>
+             <height>21</height>
             </rect>
            </property>
            <property name="styleSheet">
             <string notr="true">border:none;</string>
            </property>
            <property name="text">
-            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#009ade;&quot;&gt;Last&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#ffffff;&quot;&gt;LAST&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
            </property>
           </widget>
           <widget class="QLabel" name="lblMintpalLastBtc">
@@ -1796,10 +1833,11 @@ QTabBar::tab:last {margin-right:100px;}</string>
            <bool>true</bool>
           </property>
           <property name="styleSheet">
-           <string notr="true">QScrollBar:vertical {margin-top:22px;background: #95a5a6;}QScrollBar::handle:vertical {background: #703030;min-width: 10px;min-height:20px;}QScrollBar::add-line:vertical {width: 0px;subcontrol-position: top left;}QScrollBar::sub-line:vertical {width: 0px;subcontrol-position: top left;}QScrollBar:left-arrow:horizontal, QScrollBar::right-arrow:horizontal {width: 0px;height: 0px;}QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {background: none;} QTreeWidget { color:#000;background:#d3d6d8;}
+           <string notr="true">QTreeWidget { color:#000;}
+QScrollBar:vertical {margin-top:22px;background: #95a5a6;}QScrollBar::handle:vertical {background: #703030;min-width: 10px;min-height:20px;}QScrollBar::add-line:vertical {width: 0px;subcontrol-position: top left;}QScrollBar::sub-line:vertical {width: 0px;subcontrol-position: top left;}QScrollBar:left-arrow:horizontal, QScrollBar::right-arrow:horizontal {width: 0px;height: 0px;}QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {background: none;} QTreeWidget {background:#d3d6d8;}
  QHeaderView::section {
      background-color: #f2594b;
-	 color:#000;
+	color:#000;
      padding-left: 15px;
      border: 0px;
 	height:22px;
@@ -2023,10 +2061,11 @@ QTabBar::tab:last {margin-right:100px;}</string>
            </rect>
           </property>
           <property name="styleSheet">
-           <string notr="true">QScrollBar:vertical {margin-top:22px;background: #95a5a6;}QScrollBar::handle:vertical {background: #4e8e81;max-width: 5px;min-height:20px;}QScrollBar::add-line:vertical {width: 0px;subcontrol-position: top left;}QScrollBar::sub-line:vertical {width: 0px;subcontrol-position: top left;}QScrollBar:left-arrow:horizontal, QScrollBar::right-arrow:horizontal {width: 0px;height: 0px;}QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {background: none;} QTreeWidget { color:#000;background:#d3d6d8;}
+           <string notr="true">QTreeWidget { color:#000;}
+QScrollBar:vertical {margin-top:22px;background: #95a5a6;}QScrollBar::handle:vertical {background: #4e8e81;max-width: 5px;min-height:20px;}QScrollBar::add-line:vertical {width: 0px;subcontrol-position: top left;}QScrollBar::sub-line:vertical {width: 0px;subcontrol-position: top left;}QScrollBar:left-arrow:horizontal, QScrollBar::right-arrow:horizontal {width: 0px;height: 0px;}QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {background: none;} QTreeWidget {background:#d3d6d8;}
  QHeaderView::section {
      background-color: #7cc576;
-	 color:#000;
+	color:#000;
      padding-left: 15px;
      border: 0px;
 	height:22px;
@@ -2116,7 +2155,7 @@ QTabBar::tab:last {margin-right:100px;}</string>
            <string notr="true">font-family:Arial Narrow;</string>
           </property>
           <property name="text">
-           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#009ade;&quot;&gt;Mintpal&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#009ade;&quot;&gt;MINTPAL&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
           </property>
          </widget>
          <widget class="QLabel" name="lblMintpalChange">
@@ -2561,22 +2600,22 @@ QTabBar::tab:last {margin-right:100px;}</string>
            </rect>
           </property>
           <property name="styleSheet">
-           <string notr="true">border-right:1px solid #bdc3c7;</string>
+           <string notr="true">border-right:1px solid #000;border-left:1px solid #000;border-top:1px solid #000;background-color:#009ade;border-BOTTOM:1px solid #000;</string>
           </property>
           <widget class="QLabel" name="lblPoloniexAskHeader">
            <property name="geometry">
             <rect>
-             <x>0</x>
-             <y>0</y>
-             <width>101</width>
-             <height>31</height>
+             <x>10</x>
+             <y>10</y>
+             <width>91</width>
+             <height>21</height>
             </rect>
            </property>
            <property name="styleSheet">
             <string notr="true">border:none;</string>
            </property>
            <property name="text">
-            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#009ade;&quot;&gt;Ask&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#ffffff;&quot;&gt;ASK&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
            </property>
           </widget>
           <widget class="QLabel" name="lblPoloniexAskBtc">
@@ -2627,20 +2666,23 @@ QTabBar::tab:last {margin-right:100px;}</string>
             <height>81</height>
            </rect>
           </property>
+          <property name="styleSheet">
+           <string notr="true">border-right:1px solid #000;border-left:1px solid #000;border-top:1px solid #000;background-color:#009ade;border-BOTTOM:1px solid #000;</string>
+          </property>
           <widget class="QLabel" name="lblPoloniexBidHeader">
            <property name="geometry">
             <rect>
-             <x>0</x>
-             <y>0</y>
-             <width>101</width>
-             <height>31</height>
+             <x>10</x>
+             <y>10</y>
+             <width>91</width>
+             <height>21</height>
             </rect>
            </property>
            <property name="styleSheet">
             <string notr="true">border:none;</string>
            </property>
            <property name="text">
-            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#009ade;&quot;&gt;Bid&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#ffffff;&quot;&gt;BID&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
            </property>
           </widget>
           <widget class="QLabel" name="lblPoloniexBidBtc">
@@ -2651,6 +2693,9 @@ QTabBar::tab:last {margin-right:100px;}</string>
              <width>91</width>
              <height>16</height>
             </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">border:none</string>
            </property>
            <property name="text">
             <string>B0.00000000</string>
@@ -2667,6 +2712,9 @@ QTabBar::tab:last {margin-right:100px;}</string>
              <width>91</width>
              <height>16</height>
             </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">border:none</string>
            </property>
            <property name="text">
             <string>$0.00000000</string>
@@ -2686,22 +2734,22 @@ QTabBar::tab:last {margin-right:100px;}</string>
            </rect>
           </property>
           <property name="styleSheet">
-           <string notr="true">border-right:1px solid #bdc3c7;</string>
+           <string notr="true">border-right:1px solid #000;border-left:1px solid #000;border-top:1px solid #000;background-color:#009ade;border-BOTTOM:1px solid #000;</string>
           </property>
           <widget class="QLabel" name="lblPoloniexLastHeader">
            <property name="geometry">
             <rect>
-             <x>0</x>
-             <y>0</y>
-             <width>101</width>
-             <height>31</height>
+             <x>10</x>
+             <y>10</y>
+             <width>91</width>
+             <height>21</height>
             </rect>
            </property>
            <property name="styleSheet">
             <string notr="true">border:none;</string>
            </property>
            <property name="text">
-            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#009ade;&quot;&gt;Last&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#ffffff;&quot;&gt;LAST&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
            </property>
           </widget>
           <widget class="QLabel" name="lblPoloniexLastBtc">
@@ -2794,10 +2842,11 @@ QTabBar::tab:last {margin-right:100px;}</string>
            <bool>true</bool>
           </property>
           <property name="styleSheet">
-           <string notr="true">QScrollBar:vertical {margin-top:22px;background: #95a5a6;}QScrollBar::handle:vertical {background: #703030;min-width: 10px;min-height:20px;}QScrollBar::add-line:vertical {width: 0px;subcontrol-position: top left;}QScrollBar::sub-line:vertical {width: 0px;subcontrol-position: top left;}QScrollBar:left-arrow:horizontal, QScrollBar::right-arrow:horizontal {width: 0px;height: 0px;}QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {background: none;} QTreeWidget { color:#000;background:#d3d6d8;}
+           <string notr="true">QTreeWidget { color:#000;}
+QScrollBar:vertical {margin-top:22px;background: #95a5a6;}QScrollBar::handle:vertical {background: #703030;min-width: 10px;min-height:20px;}QScrollBar::add-line:vertical {width: 0px;subcontrol-position: top left;}QScrollBar::sub-line:vertical {width: 0px;subcontrol-position: top left;}QScrollBar:left-arrow:horizontal, QScrollBar::right-arrow:horizontal {width: 0px;height: 0px;}QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {background: none;} QTreeWidget {background:#d3d6d8;}
  QHeaderView::section {
      background-color: #f2594b;
-	 color:#000;
+	color:#000;
      padding-left: 15px;
      border: 0px;
 	height:22px;
@@ -3050,10 +3099,11 @@ QTabBar::tab:last {margin-right:100px;}</string>
            </rect>
           </property>
           <property name="styleSheet">
-           <string notr="true">QScrollBar:vertical {margin-top:22px;background: #95a5a6;}QScrollBar::handle:vertical {background: #4e8e81;max-width: 5px;min-height:20px;}QScrollBar::add-line:vertical {width: 0px;subcontrol-position: top left;}QScrollBar::sub-line:vertical {width: 0px;subcontrol-position: top left;}QScrollBar:left-arrow:horizontal, QScrollBar::right-arrow:horizontal {width: 0px;height: 0px;}QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {background: none;} QTreeWidget { color:#000;background:#d3d6d8;}
+           <string notr="true">QTreeWidget { color:#000;}
+QScrollBar:vertical {margin-top:22px;background: #95a5a6;}QScrollBar::handle:vertical {background: #4e8e81;max-width: 5px;min-height:20px;}QScrollBar::add-line:vertical {width: 0px;subcontrol-position: top left;}QScrollBar::sub-line:vertical {width: 0px;subcontrol-position: top left;}QScrollBar:left-arrow:horizontal, QScrollBar::right-arrow:horizontal {width: 0px;height: 0px;}QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {background: none;} QTreeWidget {background:#d3d6d8;}
  QHeaderView::section {
      background-color: #7cc576;
-	 color:#000;
+	color:#000;
      padding-left: 15px;
      border: 0px;
 	height:22px;
@@ -3143,7 +3193,7 @@ QTabBar::tab:last {margin-right:100px;}</string>
            <string notr="true">font-family:Arial Narrow;</string>
           </property>
           <property name="text">
-           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#009ade;&quot;&gt;Poloniex&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#009ade;&quot;&gt;POLONIEX&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
           </property>
          </widget>
          <widget class="QLabel" name="lblPoloniexChange">
@@ -3559,8 +3609,7 @@ QTabBar::tab:last {margin-right:100px;}</string>
            </rect>
           </property>
           <property name="styleSheet">
-           <string notr="true">border-right:1px solid #bdc3c7;
-border-left:1px solid #bdc3c7;</string>
+           <string notr="true">border-right:1px solid #000;border-left:1px solid #000;border-top:1px solid #000;background-color:#009ade;border-BOTTOM:1px solid #000;</string>
           </property>
           <widget class="QLabel" name="lblCryptsyLastUsd">
            <property name="geometry">
@@ -3585,16 +3634,16 @@ border-left:1px solid #bdc3c7;</string>
            <property name="geometry">
             <rect>
              <x>10</x>
-             <y>0</y>
+             <y>10</y>
              <width>91</width>
-             <height>31</height>
+             <height>21</height>
             </rect>
            </property>
            <property name="styleSheet">
             <string notr="true">border:none;</string>
            </property>
            <property name="text">
-            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#009ade;&quot;&gt;Last&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#ffffff;&quot;&gt;LAST&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
            </property>
           </widget>
           <widget class="QLabel" name="lblCryptsyLastBtc">
@@ -3649,10 +3698,11 @@ border-left:1px solid #bdc3c7;</string>
            <bool>true</bool>
           </property>
           <property name="styleSheet">
-           <string notr="true">QScrollBar:vertical {margin-top:22px;background: #95a5a6;}QScrollBar::handle:vertical {background: #703030;min-width: 10px;min-height:20px;}QScrollBar::add-line:vertical {width: 0px;subcontrol-position: top left;}QScrollBar::sub-line:vertical {width: 0px;subcontrol-position: top left;}QScrollBar:left-arrow:horizontal, QScrollBar::right-arrow:horizontal {width: 0px;height: 0px;}QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {background: none;} QTreeWidget { color:#000;background:#d3d6d8;}
+           <string notr="true">QTreeWidget { color:#000;}
+QScrollBar:vertical {margin-top:22px;background: #95a5a6;}QScrollBar::handle:vertical {background: #703030;min-width: 10px;min-height:20px;}QScrollBar::add-line:vertical {width: 0px;subcontrol-position: top left;}QScrollBar::sub-line:vertical {width: 0px;subcontrol-position: top left;}QScrollBar:left-arrow:horizontal, QScrollBar::right-arrow:horizontal {width: 0px;height: 0px;}QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {background: none;} QTreeWidget {background:#d3d6d8;}
  QHeaderView::section {
      background-color: #f2594b;
-	 color:#000;
+	color:#000;
      padding-left: 15px;
      border: 0px;
 	height:22px;
@@ -3853,10 +3903,11 @@ border-left:1px solid #bdc3c7;</string>
            </rect>
           </property>
           <property name="styleSheet">
-           <string notr="true">QScrollBar:vertical {margin-top:22px;background: #95a5a6;}QScrollBar::handle:vertical {background: #4e8e81;max-width: 5px;min-height:20px;}QScrollBar::add-line:vertical {width: 0px;subcontrol-position: top left;}QScrollBar::sub-line:vertical {width: 0px;subcontrol-position: top left;}QScrollBar:left-arrow:horizontal, QScrollBar::right-arrow:horizontal {width: 0px;height: 0px;}QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {background: none;} QTreeWidget { color:#000;background:#d3d6d8;}
+           <string notr="true">QTreeWidget { color:#000;}
+QScrollBar:vertical {margin-top:22px;background: #95a5a6;}QScrollBar::handle:vertical {background: #4e8e81;max-width: 5px;min-height:20px;}QScrollBar::add-line:vertical {width: 0px;subcontrol-position: top left;}QScrollBar::sub-line:vertical {width: 0px;subcontrol-position: top left;}QScrollBar:left-arrow:horizontal, QScrollBar::right-arrow:horizontal {width: 0px;height: 0px;}QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {background: none;} QTreeWidget {background:#d3d6d8;}
  QHeaderView::section {
      background-color: #7cc576;
-	 color:#000;
+	color:#000;
      padding-left: 15px;
      border: 0px;
 	height:22px;
@@ -3955,7 +4006,7 @@ border-left:1px solid #bdc3c7;</string>
            <string notr="true">font-family:Arial Narrow;</string>
           </property>
           <property name="text">
-           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#009ade;&quot;&gt;Cryptsy&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#009ade;&quot;&gt;CRYPTSY&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
           </property>
          </widget>
          <widget class="QLabel" name="lblCryptsyVolumeUsd">
@@ -4032,7 +4083,7 @@ border-left:1px solid #bdc3c7;</string>
            </rect>
           </property>
           <property name="text">
-           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://www.cryptsy.com&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#ffffff;&quot;&gt;Market Link&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://www.cryptsy.com/markets/view/288&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#ffffff;&quot;&gt;Market Link&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
           </property>
           <property name="alignment">
            <set>Qt::AlignCenter</set>
@@ -4297,14 +4348,14 @@ border-left:1px solid #bdc3c7;</string>
      <widget class="QLabel" name="lblConvertShade">
       <property name="geometry">
        <rect>
-        <x>30</x>
+        <x>60</x>
         <y>10</y>
-        <width>131</width>
+        <width>101</width>
         <height>20</height>
        </rect>
       </property>
       <property name="text">
-       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#ffffff;&quot;&gt;Convert Shade :&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#ffffff;&quot;&gt;     Convert Shade :&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
      <widget class="QLineEdit" name="txtConvertShadeQty">
@@ -4335,9 +4386,9 @@ border-left:1px solid #bdc3c7;</string>
      <widget class="QPushButton" name="btnConvertShade">
       <property name="geometry">
        <rect>
-        <x>260</x>
+        <x>270</x>
         <y>10</y>
-        <width>51</width>
+        <width>41</width>
         <height>23</height>
        </rect>
       </property>
@@ -4348,7 +4399,7 @@ border-left:1px solid #bdc3c7;</string>
        </size>
       </property>
       <property name="styleSheet">
-       <string notr="true">border:1px solid #61696c;background:white;font-weight:600;</string>
+       <string notr="true">border:1px solid black;background:#009ade;font-weight:600;</string>
       </property>
       <property name="text">
        <string>=</string>
